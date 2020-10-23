@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> D4CASINÒ</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -10,7 +11,7 @@
 
     <div class="layout">
       <div class="container log">
-        <div id="display" class="row">
+        <div id="display" class="row ">
           <div class="content">
             <img src="img/logo2.png" alt="logo">
             <h2> Effettua il log-in</h2>
@@ -32,11 +33,54 @@
           </div>
         </div>
       </div>
+
       <div class="container game ">
-        <div id="game" class="row hidden">
+        <div id="game" class=" row hidden">
           <div class="content">
-              <h2 id=welcome> </h2>
-              <h1>Giochiamo con i dadi</h1>
+              <h2 >Benvenuto <span id= "welcome"> </span> </h2>
+              <h1><img class="ico" src="img/dadisx.svg" alt="dadi">Giochiamo con i dadi <img class="ico" src="img/dadidx.svg" alt="dadi"></h1>
+              
+              <div class=" row-dice">
+                <div class="me">
+                  <h3>Me</h3>
+                  <div  id="me-light" class=" riquadro me-dice">
+                    <img id="me-uno" class="dado hidden" src="img/uno.svg" alt="one ">
+                    <img id="me-due" class="dado hidden" src="img/due.svg" alt="two ">
+                    <img id="me-tre" class="dado hidden" src="img/tre.svg" alt="three">
+                    <img id="me-quattro" class="dado hidden" src="img/quattro.svg" alt="four">
+                    <img id="me-cinque" class="dado hidden" src="img/cinque.svg" alt="five">
+                    <img id="me-sei" class="dado hidden" src="img/sei.svg" alt="six">
+
+                  </div>
+
+                </div>
+                <div class="vs">
+                  <h1>VS</h1>
+
+                </div>
+                <div class="computer">
+                  <h3 class="">Computer</h3>
+                  <div id="c-light" class="riquadro computer-dice">
+                    <img id="c-uno" class="dado hidden" src="img/uno.svg" alt="one ">
+                    <img id="c-due" class="dado hidden" src="img/due.svg" alt="two ">
+                    <img id="c-tre" class="dado hidden" src="img/tre.svg" alt="three">
+                    <img id="c-quattro" class="dado hidden" src="img/quattro.svg" alt="four">
+                    <img id="c-cinque"uno" inque" class="dado hidden" src="img/cinque.svg" alt="five">
+                    <img id="c-sei" class="dado hidden" src="img/sei.svg" alt="six">
+
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="start">
+                <button id=start type="button" name="button"> Start Game</button>
+
+              </div>
+              <div class="result-game">
+                <h1 id="result" class=""> </h1>
+              </div>
+
           </div>
         </div>
       </div>
