@@ -12,14 +12,14 @@
   width: 100vw;
 }
 
-.log .row{
+ .row{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
-.log .content{
+ .content{
   background-color: white;
   width: 40vw;
   height: 60vh;
@@ -33,7 +33,7 @@
   margin-bottom: 30px;
 }
 
-.log .content h2{
+ h2{
    font-weight: 200;
    color: #063852;
    margin-bottom: 30px;
@@ -86,4 +86,16 @@
 
 .hidden{
   display: none;
+}
+
+.red{
+  color: red;
+  font-weight: 600;
+}
+
+
+
+.game h2{
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
